@@ -1,9 +1,8 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import HeroItem from '../components/HeroItem.vue'
+import img from '../assets/HomeHeroImg.jpg'
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <HeroItem :src="img" />
 </template>
